@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camping Gear Website | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <!-- Fontawesome Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img class="logo-img" height="100px" width="100px" src="Logo PNG (1).png" alt="logo">
+      <div>
+        <h2 class="logo"><a href="#">Priyadharshini Paramedical and Nursing Institution</a></h2>
+        <h6>Reg. No. :Reg/NCVRT/TN/2359/VTC <br>
+        Affiliated to NCVRT
+        Accredited with Ministry of HRD - Govt. Of India , New Delhi</h6>
+      </div>
+    </div>
+    <nav class="navbar">
+      <input type="checkbox" id="menu-toggler">
+      <label for="menu-toggler" id="hamburger-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+          <path d="M0 0h24v24H0z" fill="none" />
+          <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z" />
+        </svg>
+      </label>
+      <ul class="all-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Courses</a></li>
+        <li><a href="#portfolio">Institution</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="homepage" id="home">
+    <div class="content">
+      <div class="text">
+        <h1>Health & Educations</h1>
+        <p>
+          Your Path to a Brighter Tomorrow. <br> Empowering Lives through Healthcare and Education.</p>
+      </div>
+      <a href="#services">Courses Offered</a>
+    </div>
+  </section>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+  <section class="services" id="services">
+    <h2>Courses Offered</h2>
+    <p>Explore our wide range of camping gear services.</p>
+    <ul class="cards">
+      <li class="card">
+        <img src="Diploma in nursing Assistance.jpg" alt="Diploma in nursing Assistance">
+        <h3>Diploma in nursing Assistance</h3>
+        <p>Our two-year Diploma in Nursing Assistant (DNCA) program equips you with the fundamental skills and knowledge
+          necessary to provide basic patient care in hospitals, clinics, and other healthcare settings. You will gain a
+          strong foundation in nursing fundamentals, medical-surgical procedures, medication administration, patient
+          assessment, and communication skills.</p>
+      </li>
+      <li class="card">
+        <img src="home_care.jpg" alt="Home Care">
+        <h3>Diploma in home care Nursing</h3>
+        <p> The Diploma in Home Nursing (DHN) program is a comprehensive course designed to prepare you to provide
+          quality care to patients in their homes. You will learn about essential nursing techniques, patient care
+          services, first aid, wound management, disease management, medication administration, patient education, and
+          effective communication skills.</p>
+      </li>
+      <li class="card">
+        <img src="Diploma in Hospital Nursing & Midwifery.webp" alt="Diploma in Hospital Nursing & Midwifery">
+        <h3>Diploma in Hospital Nursing & Midwifery</h3>
+        <p> This program is designed to train students in assisting childbirth and nursing inside hospital premises. You
+          will become comprehensive about basic mandatory nursing techniques, disease management, medication
+          administration, patient education, and effective communication skills</p>
+      </li>
+      <li class="card">
+        <img src="Diploma in operation theater assistant.jpg" alt="Diploma in operation theater assistant">
+        <h3>Diploma in operation theater assistant</h3>
+        <p>This two-year program focuses on teaching the essential skills and knowledge required to function effectively
+          as an operation theatre assistant. You will learn about equipment operation and management, aseptic
+          techniques, patient care in the operating room, and assisting surgeons during surgical procedures.</p>
+      </li>
+      <li class="card">
+        <img src="Diploma in medical Laboratory Technology.jpg" alt="Diploma in medical Laboratory Technology">
+        <h3>Diploma in medical Laboratory Technology</h3>
+        <p>This two-year program provides in-depth training in medical laboratory procedures and techniques. You will
+          gain expertise in performing various laboratory tests, analyzing samples, interpreting results, and
+          contributing to disease diagnosis and treatment plans</p>
+      </li>
+      <li class="card">
+        <img src="Diploma in Patient care and First aid.jpg" alt="Diploma in Patient care and First aid">
+        <h3>Diploma in Patient care and First aid</h3>
+        <p>Our Diploma in Patient Care and First Aid program equips you with the skills and knowledge to provide basic
+          first aid, manage medical emergencies, and administer essential patient care. You will learn about CPR, wound
+          care, vital sign monitoring, and emergency procedures.</p>
+      </li>
+      <li class="card">
+        <img src="Diploma in medical Technician.jpg" alt="Diploma in medical Technician">
+        <h3>Diploma in medical Technician</h3>
+        <p>This program is designed to train students in the operation and maintenance of medical equipment used in
+          various healthcare settings. You will gain a comprehensive understanding of medical equipment functionality,
+          troubleshooting techniques, and patient care procedures.</p>
+      </li>
+      <li class="card">
+        <img src="Diploma in ICU Technician.jpeg" alt="Diploma in ICU Technician">
+        <h3>Diploma in ICU Technician</h3>
+        <p>Our Diploma in ICU Technician program equips you with the skills and knowledge to thrive in the fast-paced
+          environment of intensive care units (ICUs). This program prepares you for a dynamic and crucial role, directly
+          supporting critically ill patients and assisting the ICU healthcare team.</p>
+      </li>
+      <li class="card">
+        <!-- <img src="assets/pharmacy.jpg" alt="img"> -->
+        <div  class="brouchere-container">
+          <h3>DOWNLOAD BROUCHERE</h3>
+          <a target="_blank" href="assets/PPNI Brochure.pdf"><button class="download-button">DOWNLOAD</button></a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h2>Gallary</h2>
+    <!-- <p>Take a look at some of our Products And Services.</p> -->
+    <ul class="cards">
+      <li class="card">
+        <img src="Institution classroom.jpg" alt="nstitution classroom">
+        <h3>Classroom</h3>
+        <!-- <p>Your Wellness, Our Priority..</p> -->
+      </li>
+      <li class="card">
+        <img src="library inside.jpg" alt="Library">
+        <h3>Library</h3>
+        <!-- <p>Embrace the Best Version of You.</p> -->
+      </li>
+      <li class="card">
+        <img src="labratory.jpg" alt="Lab">
+        <h3>Laboratory</h3>
+        <!-- <p> Restoring Health, One Dose at a Time.</p> -->
+      </li>
+      <li class="card">
+        <img src="hostel.jpeg" alt="Hostel">
+        <h3>Hostel</h3>
+        <!-- <p>Honoring Wisdom, Nurturing Lives.</p> -->
+      </li>
+      <li class="card">
+        <img src="Hostel Mess.jpg" alt="Hostel Mess">
+        <h3>Dinning</h3>
+        <!-- <p>Nature's Remedy for Health and Vitality.</p> -->
+      </li>
+      <li class="card">
+        <img src="Office.jpeg" alt="Office">
+        <h3> Office</h3>
+        <!-- <p>Embrace Wellness with Our Exclusive Stay-and-Get-Treatment Program.</p> -->
+      </li>
+    </ul>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>Discover our story in providing Health and Education services.</p>
+    <div class="row company-info">
+      <h3>Our Story</h3>
+      <p>Experience the excellence of our services, where we have been offering high-quality Siddha products and good
+        care of patients. Our commitment to quality and customer satisfaction ensures that every customers can rely on
+        us for their health and medical products.</p>
+    </div>
+    <div class="row mission-vision">
+      <h3>Our Mission</h3>
+      <p>Our goal is to provide an educational experience that not only imparts academic knowledge but also offers practical 
+        skills training, ensuring that our students are well-prepared for their future endeavors. We strive to nurture their 
+        overall development, equipping them with the tools necessary for success in their professional and personal lives.</p>
+        
+      <h3>Our Vision</h3>
+      <p>Our vision is to establish ourselves as a premier institution renowned for cultivating healthcare professionals who are 
+        not only proficient in their technical skills but also embody empathy and compassion in their practice. We are dedicated to
+         shaping individuals who will make a significant impact on the well-being of communities, driven by a commitment to excellence 
+         and a deep understanding of human care.</p>
+
+      <h3>We Offer NCVRT Certificate </h3>
+      <p>&emsp;&emsp;National Council Of Vocational and Research Training is an Autonomous body. NCVRT an vocational education council <b>recognized by government of India, New Delhi</b>. NCVRT is accredited with Ministry of Human Resource Development Government of India. NCVRT promote the best to make the Vocational training program, a most successful all over India to Uplift youth by providing quality education
+<br>&emsp;&emsp;NCVRT Diploma holder is qualified for the purpose of employment in relevant sector government, Private and Voluntary sectors in all of National and International Level, under the provision of Article 14,15,16 & 19 of constitution of India and Registration by the Employment[ vide reply to U.S.Q.No 3718 on7th December 1988 in the Parliament of India (Lok Shaba) by Hon’ble Deputy Minister of labor, Govt of India, New Delhi and U.S.Q.No 1739, on 25.11.1998 in the Rajya sabha by the Hon’ble Minister of labor, Govt. of India, New Delhi</p>
+    </div>
+    <!-- <div class="row team">
+      <h3>Our Team</h3>
+      <ul>
+        <li>John Doe - Founder and CEO</li>
+        <li>Jane Smith - Gear Specialist</li>
+        <li>Mark Johnson - Customer Representative</li>
+        <li>Sarah Brown - Operations Manager</li>
+      </ul>
+    </div> -->
+  </section>
+
+  <!-- <section class="ncvrt" id="ncvrt">
+    <h3>NCVRT</h3>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores laudantium et sequi rem nemo corrupti, sunt saepe veritatis, est eveniet ipsum nulla aspernatur error reprehenderit labore! Non suscipit totam reprehenderit!
+  </section> -->
+  <section class="certificate-section" id="certificate-section">
+    <h2>Model Certificate</h2>
+
+    <div class="certificate" id="certificate">
+
+      <img src="degree.png" alt="Degree">
+    <img src="provisiona certificate.png" alt="Provesional">
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Reach out to us for any inquiries or feedback.</p>
+    <div class="row">
+      <div class="col information">
+        <div class="contact-details">
+          <p><i class="fas fa-map-marker-alt"></i>700, Ram Nagar, Kuppepalayam, S.S.Kulam (PO), CBE - 641107</p>
+          <p><i class="fas fa-envelope"></i> priyadharshiniinstitution@gmail.com</p>
+          <p><i class="fas fa-phone"></i> 9994684458, 9500430946</p>
+          <p><i class="fas fa-clock"></i> Monday - Friday: 9:00 AM - 5:00 PM</p>
+          <p><i class="fas fa-clock"></i> Saturday: 10:00 AM - 3:00 PM</p>
+          <p><i class="fas fa-clock"></i> Sunday: Closed</p>
+          <!-- <p><i class="fas fa-globe"></i> www.codingnepalweb.com</p> -->
+        </div>
+      </div>
+      <div class="col form">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <!-- Replace with your Access Key -->
+          <input type="hidden" name="access_key" value="513794a3-6813-4065-9c58-d989916d5e08">
+          <input type="hidden" name="redirect" value="http://127.0.0.1:5500/index.html#home">
+          <!-- Form Inputs. Each input must have a name="" attribute -->
+          <input placeholder="Name" type="text" name="name" required>
+          <input placeholder="Email Id" type="email" name="email" required>
+          <textarea placeholder="Description" name="message" required></textarea>
+
+          <!-- hCaptcha Spam Protection -->
+          <!-- <div class="h-captcha" data-captcha="true"></div> -->
+
+    <button type="submit">Submit Form</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- <footer>
+    <div>
+      <span>Copyright © 2023 All Rights Reserved</span>
+      <span class="link">
+        <a href="#">Home</a>
+        <a href="#contact">Contact</a>
+      </span>
+    </div>
+  </footer> -->
+
+</body>
+<!-- Required for hCaptcha -->
+<script src="https://web3forms.com/client/script.js" async defer></script>
+<script src="/main.js"></script>
+
+</html>
